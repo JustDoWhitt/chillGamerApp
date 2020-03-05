@@ -1,0 +1,29 @@
+<!-- app/page/page.component.html -->
+
+<img class="fullBg" fullpage [src]="page.image">
+
+
+
+<mat-card>
+
+<mat-card-header>
+
+<mat-card-title><h1>{{page.title}}</h1></mat-card-title>
+
+<mat-card-subtitle> <div [style.color]="'black'">{{page.subtitle}}</div></mat-card-subtitle>
+
+</mat-card-header>
+
+<mat-card-content>
+
+{{page.content}}
+<br>
+<br>
+{{page.content2}}
+<br>
+<br>
+<a href="https://www.linkedin.com/in/christopher-whitt-21b958160/" target="_blank">{{page.content3}}</a>
+
+</mat-card-content>
+
+</mat-card>

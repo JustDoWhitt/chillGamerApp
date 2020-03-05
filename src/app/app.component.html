@@ -1,0 +1,17 @@
+<!-- app/app.component.html -->
+
+<mat-toolbar color="accent" class="mat-elevation-z24">
+
+  <h1>The<span class="dark">ChillGamers</span></h1>
+
+  <span class="spacer"></span>
+
+  <a mat-button [routerLink]="['home']" routerLinkActive="active">HOME</a>
+
+  <a mat-button [routerLink]="['about']" routerLinkActive="active">ABOUT</a>
+
+  <a mat-button [routerLink]="['contact']" routerLinkActive="active">CONTACT</a>
+
+</mat-toolbar>
+
+<router-outlet></router-outlet>

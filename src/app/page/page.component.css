@@ -1,0 +1,52 @@
+/* app/page/page.component.css */
+
+:host {
+
+    display: flex;
+
+    height: 100%;
+
+    align-items: center;
+
+}
+
+
+
+mat-card {
+
+    width:500px;
+
+    background: rgba(245, 255, 250, 0.75);
+
+}
+
+
+
+mat-card-header {
+
+    color: #4682B4;
+
+}
+
+
+
+mat-card-content {
+
+    padding: 8px;
+    color: #000000;
+
+}
+
+
+
+.fullBg {
+
+    z-index:0;
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+}
