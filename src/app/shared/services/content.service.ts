@@ -15,7 +15,7 @@ export class ContentService {
 
     'about': {title: 'About', subtitle: 'About Me', content: "I'm just a guy with a passion for technology and programming. I love to learn new programming languages which is why I started this website as a way to become familiar with the Angular framework. I'm eager and determined to learn and grow as a developer.", image: 'assets/background.png'},
 
-    'contact': {title: 'Contact', subtitle: 'Contact Us', content: 'justdoinwhitt@gmail.com', content2: 'Phone number is available upon request.', content3: 'LinkedIn', image: 'assets/background.png'}
+    'contact': {title: 'Contact', subtitle: 'Contact Me', content: 'justdoinwhitt@gmail.com', content2: 'Phone number is available upon request.', content3: 'LinkedIn', content4: 'Github', image: 'assets/background.png'}
 
   };
 
